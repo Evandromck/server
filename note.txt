@@ -1,6 +1,19 @@
+*Configurando o projeto
 npm i typescript -D
-rodar o typescript = npx tsc --init
+npx tsc --init       //rodar o typescript
 colocar o typescript utilizando as configurações de 2020 com o node => no arquivo tsconfitg no campo target de 2026 para 2020
-npm i tsx -D = permite execultar um arquivo no Node em tipescript sem 
+npm i tsx -D        // permite execultar um arquivo no Node em tipescript sem 
+
 
 hora: 26:26
+
+*Configurando o Prisma
+*com o Fastify
+npm i -D prisma                               //ORM
+npm i @prisma/client                          //é o cliente do prisma, dependencia ara acessar o banco de dados dentro da aplicação
+npx prisma init --datasource-provider SQLite  //Serve para dizer que vamos utilizar o SQLite 
+npx prisma migrate dev                        // ele vai ler o schema.prisma vai perceber todas as tabelas e vai criar um arquivo sql no banco de dados  e em seguda pede para informar um comentario  que nem no github
+npx prisma studio                             //para visualizar o banco de dados 
+ 
+*cors                        //É um mecanismo de segurança, ele informa quais aplicação vai acessar as rotas 
+npm i @fastify/cors          // integração com o cors com o festify
