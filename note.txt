@@ -1,0 +1,6 @@
+npm i typescript -D
+rodar o typescript = npx tsc --init
+colocar o typescript utilizando as configurações de 2020 com o node => no arquivo tsconfitg no campo target de 2026 para 2020
+npm i tsx -D = permite execultar um arquivo no Node em tipescript sem 
+
+hora: 26:26
